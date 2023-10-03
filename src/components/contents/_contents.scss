@@ -1,0 +1,38 @@
+.contents {
+  margin: 5vh 25vh 5vh 25vh;
+  display: flex;
+}
+
+.contents-div1 {
+  width: 15%;
+}
+
+.contents-div2 {
+  width: 60%;
+}
+
+.contents-div2-div1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contents-div2-h {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 3vh;
+}
+
+.contents-div2-d {
+  width: 20vh;
+  margin-bottom: 3vh;
+}
+.contents-div2-p {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 1vh;
+  text-align: justify;
+}
+
+.contents-div3 {
+  width: 25%;
+}

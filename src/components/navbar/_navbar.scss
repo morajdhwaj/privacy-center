@@ -1,0 +1,24 @@
+.navbar {
+  background-color: rgb(247, 242, 242);
+}
+
+.navbar-div {
+  margin: 0 25vh 0 25vh;
+  display: flex;
+}
+
+.navbar-div-div1 {
+  width: 50%;
+}
+
+.navbar-div-div1-img {
+  width: 5h;
+  height: 7vh;
+}
+.navbar-div-div2 {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5vh;
+}
