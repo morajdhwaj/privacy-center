@@ -1,12 +1,15 @@
+import { Route, Routes } from 'react-router-dom';
 import './App.scss';
-import Contents from './components/contents/Contents';
-import Navbar from './components/navbar/Navbar';
+import HomePage from './pages/home-page/HomePage';
+import RequestPage from './pages/request-page/RequestPage';
 
 function App() {
   return (
     <div>
-      <Navbar />
-      <Contents />
+      <Routes>
+        <Route path='/' element={<HomePage />} />
+        <Route path='/request' element={<RequestPage />} />
+      </Routes>
     </div>
   );
 }
