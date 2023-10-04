@@ -14,10 +14,12 @@ const Navbar = () => {
           />
         </div>
         <div className='navbar-div-div2'>
-          <Button kind='ghost' href='request'>
+          <Button kind='ghost' href='/request'>
             View Past Request
           </Button>
-          <Button kind='danger'>Make a Privacy Request</Button>
+          <Button kind='danger' href='/preference'>
+            Make a Privacy Request
+          </Button>
         </div>
       </div>
     </div>

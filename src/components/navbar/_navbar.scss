@@ -1,5 +1,10 @@
 .navbar {
   background-color: rgb(247, 242, 242);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 90;
 }
 
 .navbar-div {

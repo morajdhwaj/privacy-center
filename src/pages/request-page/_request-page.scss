@@ -1,0 +1,61 @@
+.request-page {
+  margin: 10vh 35vh 10vh 35vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.request-page-div1 {
+  margin: 0;
+  width: 40%;
+  text-align: center;
+}
+
+.request-page-div1-h {
+  font-size: 17px;
+  font-weight: 700;
+  margin-bottom: 3vh;
+}
+.request-page-div1-p {
+  font-size: 17px;
+  margin-bottom: 3vh;
+}
+
+.request-page-div2 {
+  margin: 5vh;
+}
+.request-page-div2-h {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+.request-page-div2-ComboBox {
+  width: 50vh;
+  margin-bottom: 3vh;
+  background-color: white;
+}
+
+.request-page-div2-div {
+  width: 50vh;
+  margin-bottom: 3vh;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2vh;
+}
+
+.request-page-div3 {
+  margin: 0;
+  width: 40%;
+}
+
+.request-page-div3-h {
+  font-size: 13px;
+  font-weight: 700;
+  text-align: center;
+}
+.request-page-div3-p {
+  font-size: 13px;
+  margin-bottom: 2vh;
+}
