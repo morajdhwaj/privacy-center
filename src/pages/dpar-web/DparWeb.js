@@ -95,7 +95,7 @@ const DparWeb = () => {
     setRequest(e.target.value);
   };
 
-  console.log(header[1]);
+  console.log(langId);
 
   return (
     <div className='dpar-web'>
