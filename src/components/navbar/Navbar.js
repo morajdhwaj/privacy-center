@@ -7,18 +7,23 @@ const Navbar = () => {
     <div className='navbar'>
       <div className='navbar-div'>
         <div className='navbar-div-div1'>
-          <img
-            src='./images/concur-logo.png'
-            alt=''
-            className='navbar-div-div1-img'
-          />
+          <a href='/'>
+            <img
+              src='./images/concur-logo.png'
+              alt=''
+              className='navbar-div-div1-img'
+            />
+          </a>
         </div>
         <div className='navbar-div-div2'>
           <Button kind='ghost' href='/request'>
             View Past Request
           </Button>
-          <Button kind='danger' href='/preference'>
+          <Button kind='danger' href='/dparwebform'>
             Make a Privacy Request
+          </Button>
+          <Button kind='ghost' href='/preference'>
+            Preference
           </Button>
         </div>
       </div>

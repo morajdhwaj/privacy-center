@@ -139,7 +139,7 @@ const RequestPage = () => {
           <Button>Submit</Button>
         </div>
       </div>
-
+      <img src='./images/send-email.png' alt='' />
       <div className='request-page-div3'>
         <h3 className='request-page-div3-h'>Thank you!</h3>
         <p className='request-page-div3-p'>

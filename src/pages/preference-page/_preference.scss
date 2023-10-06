@@ -5,6 +5,7 @@
 
 .preference-div1 {
   width: 20%;
+  margin: 5vh 0 0 0;
 }
 
 .preference-div1-h {
@@ -12,6 +13,22 @@
   margin-bottom: 2vh;
 }
 
+.preference-div1-h:hover {
+  cursor: pointer;
+  margin-bottom: 2vh;
+  color: #0245ce;
+}
+
 .preference-div2 {
   width: 70%;
+  margin: 0;
+}
+
+.preference-div2-d {
+  background-color: red;
+  width: 20vh;
+}
+
+.preference-div2-div1 {
+  margin: 5vh 0 0 0;
 }
