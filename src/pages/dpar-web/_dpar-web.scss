@@ -4,6 +4,21 @@
   flex-direction: column;
   align-items: center;
 }
+.dpar-web-div-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dpar-web-drop-div {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+.dpar-web-drop {
+  width: 20vh;
+}
 
 .dpar-web-div1 {
   margin: 5vh 0 0 0;
@@ -78,12 +93,14 @@
   border: 1px solid rgb(144, 141, 141);
   border-radius: 5px;
   padding: 0 3vh 0 3vh;
+  font-size: 14px;
 }
 
 .dpar-web-div2-div1-tag-change {
   cursor: pointer;
   background-color: black;
 }
+
 .dpar-web-div2-div1-tag:hover {
   cursor: pointer;
   margin: 1vh 1vh 0 0;
