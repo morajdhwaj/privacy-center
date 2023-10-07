@@ -1,5 +1,14 @@
-.request-page {
+.request {
+  margin: 0;
+}
+.request-1 {
   margin: 10vh 35vh 10vh 35vh;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.request-page {
+  margin: 5vh 35vh 10vh 35vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -46,7 +55,7 @@
 }
 
 .request-page-div3 {
-  margin: 0;
+  margin: 5vh 0 0 0;
   width: 40%;
 }
 
