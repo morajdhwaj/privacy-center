@@ -22,7 +22,7 @@ const Navbar = () => {
           <Button kind='danger' href='/dparwebform'>
             Make a Privacy Request
           </Button>
-          <Button kind='ghost' href='/preference'>
+          <Button kind='ghost' href='/preference-login'>
             Preference
           </Button>
         </div>
