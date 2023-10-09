@@ -5,6 +5,7 @@ import RequestPage from './pages/request-page/RequestPage';
 import Navbar from './components/navbar/Navbar';
 import Preference from './pages/preference-page';
 import DparWeb from './pages/dpar-web';
+import PreferenceLogin from './components/preference-login';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path='/' element={<HomePage />} />
         <Route path='/request' element={<RequestPage />} />
         <Route path='/preference' element={<Preference />} />
+        <Route path='/preference-login' element={<PreferenceLogin />} />
         <Route path='/dparwebform' element={<DparWeb />} />
       </Routes>
     </div>

@@ -1,0 +1,70 @@
+.preference-login {
+  margin: 10vh 0 0 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10vh;
+}
+
+.preference-login-div {
+  width: 50vh;
+  border: 1px solid rgb(188, 187, 187);
+  box-shadow: 0 5px 5px 1px rgb(0 0 0 / 0.2);
+  padding: 0 0 5vh 0;
+}
+
+.preference-login-div-div1 {
+  display: flex;
+  justify-content: center;
+}
+
+.preference-login-div-div2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.preference-login-div2-div {
+  margin: 5vh;
+}
+
+.preference-login-div-div2-drop {
+  width: 20vh;
+  margin: 2vh 0 0 0;
+}
+.preference-login-div-div2-type-drop {
+  width: 30vh;
+  margin: 2vh 0 0 0;
+}
+
+.preference-login-div-div2-email {
+  width: 30vh;
+  height: 4vh;
+}
+
+.preference-otp-div {
+  width: 50vh;
+  border: 1px solid rgb(188, 187, 187);
+  box-shadow: 0 5px 5px 1px rgb(0 0 0 / 0.2);
+  padding: 0 0 5vh 0;
+  margin: 10vh 0 10vh 0;
+}
+
+.preference-login-input-div {
+  width: 30vh;
+  margin: 5vh 0 5vh 0;
+  display: flex;
+
+  justify-content: space-between;
+}
+
+.preference-login-input-box {
+  height: 5vh;
+  width: 5vh;
+}
+
+.preference-login-confirm {
+  margin: 5vh 0 5vh 0;
+}
